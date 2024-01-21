@@ -1,0 +1,45 @@
+#jumbo{
+    height: 30rem;
+    background-image: url("/images/village.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+#jumbo-content{ 
+    width: 50rem;
+    background-color: rgba(40,40,40,0.8);
+    color: rgb(245, 238, 238);
+    padding: 0.5rem;
+    margin: 0 auto;
+    position: relative;
+    top: 10rem;
+    border-radius: 6px;
+    box-shadow: 2px 3px 6px black;
+    text-align: center;
+}
+
+#jumbo-content #action{
+    font-family: inherit;
+    text-decoration: none;
+    color: rgb(245, 238, 238);
+    background-color: #ff8200;
+    border-color: #ff8200;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#jumbo-content #action:hover{
+    background-color: #ec9537;
+    border-color: #ec9537;
+}
+
+@media (max-width: 767px){
+    #jumbo-content{
+        width: 90%;
+        position: static;
+        margin-top: 40%;
+    }
+}
