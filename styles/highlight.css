@@ -26,9 +26,10 @@
 }
 
 /* I wanna remove transition until click does something */
-#highlight ul li:hover{
-    /* transform: scale(0.98); */
-}
+
+/* #highlight ul li:hover{
+    transform: scale(0.98);
+} */
 
 
 #highlight ul li p{
